@@ -12,7 +12,8 @@ class EmailAddressParser
     @emailAddresses = emailAddresses
   end
 
-  def parse (emailAddresses)
+  def parse 
+    @emailAddresses.split
   end
 
 
